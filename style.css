@@ -1,0 +1,198 @@
+body{
+	margin: 5px;
+	padding: 0;
+	border: none;
+	background-color:#4f4f4d;
+	font-family:Arial;
+
+}
+
+
+
+header{
+	background-image: url(books.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main-nav{
+
+	list-style: none;
+	
+
+}
+.main-nav li{
+list-style: none;
+float: left;
+width: 190px;
+height: 50px;
+opacity: .8;
+line-height: 30px;
+text-align: center;
+background-color: white;
+
+}
+
+.main-nav li a{
+	color: #a3a099;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 20px;
+	display: block;
+}
+.main-nav li a:hover{
+	border:1px solid white;
+	background-color: #4d2600;
+} 
+.main-nav li ul li{
+	display: none;
+	float: left;
+	padding-right: 10px;
+}
+.main-nav li:hover ul li{
+	display: block;
+}
+
+
+.Site-nav{
+	float: left;
+	list-style: none;
+	margin-left: 5px;
+	padding-bottom: 30px;
+	font-size: 20px;
+
+
+}
+.Site-nav li{
+	padding: 15px;
+	padding-bottom: 15px;
+	display: inline-block;
+	
+}
+.Site-nav li a{
+	color:#a3a099; 
+}
+.Site-nav li a:hover{
+	background-color: #141413;
+	border:1px solid;
+
+}
+.Site-nav img:hover{
+        background: 1px solid white;
+}
+.hh{
+	float: left;
+	border-style: outset;
+		padding: 10px 5px;
+		
+
+background-color: #55525c;
+
+}
+
+
+
+.f img:hover{
+	border:1px solid white;
+}
+.gg {
+	
+	
+	float:right;
+	
+	
+	
+}
+.ul{
+	list-style: none;
+}
+form{
+	width: 1000px;
+    
+}
+.search{
+	width: 60%;
+	padding: 10px;
+margin-left: 300px;
+background-color: #a3a19b;
+border-style: hidden;
+}
+.sliderbox{
+	
+	position: relative;
+	
+	padding: 10px;
+margin-left: 50px;
+}
+.sliderbox img{
+	float: right;
+	animation-name: slideranimation;
+	animation-duration: 20s;
+}
+.tbl{
+	border: 90;
+	border-style: none;
+	border-width: 30px;
+	padding-left: 30px;
+
+}
+.tbl td,tr{
+	padding: 30px;
+	text-align: center;
+
+
+}
+.tbl tr td img{
+	height: 300px;
+	width: 200px;
+
+}
+.tbl td img:hover{
+	border:5px solid lightgrey;
+}
+.r{
+	border:2px solid lightgrey;
+	border-width: 100%;
+	background-color: #908d99;
+}
+.today{
+	border:2px solid white;
+	background-color:lightgrey;
+	padding-right: 5px;
+	border-width: 60% ;
+    left:310px;
+    top: 2400px;
+    position: absolute;
+        margin-right: 10px;
+
+}
+
+.table{
+
+border: 1;
+background-color: #73734b;
+width: 50px;
+text-align: center;
+}
+.Site-nav h2{
+	border:2px solid #30302e;
+	background-color:#30302e;
+	
+	border-width: 30px ;
+    
+    margin-left:3px;
+    position: relative;
+}
+.footer{
+	
+	border:2px solid lightgrey;
+	border-width: 100%;
+	background-color: #908d99;
+}
+.footer li{
+	display: inline-block;
+}
+.y img{
+	height: 350px;
+	width: 250px;
+}
